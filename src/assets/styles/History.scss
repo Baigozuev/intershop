@@ -1,0 +1,44 @@
+#history {
+    margin: 30px 0;
+  h1 {
+    text-transform: capitalize;
+  }
+}
+
+table {
+  margin-top: 30px;
+  width: 80%;
+  //   background: black;
+  margin-left: 130px;
+  text-align: center;
+  color: black;
+  border-radius: 15px;
+  text-transform: capitalize;
+  //   border-collapse: collapse;
+  //   overflow: hidden;
+  //   box-shadow: 0 0 20px rgba(16, 14, 14, 0.804);
+  box-shadow: 0px 2px 15px 2px #898787c8;
+}
+
+th,
+td {
+  border-radius: 15px;
+  padding: 15px 0;
+  background: white;
+  //   border: 2px solid black;
+  color: black;
+  border-bottom: 2px solid rgba(30, 28, 28, 0.671);
+}
+
+th {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+thead {
+  th {
+    background: #1c3040;
+    color: white;
+    border-bottom: 2px solid rgb(26, 24, 24);
+  }
+}

@@ -1,0 +1,16 @@
+.category {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 100px;
+  button {
+    width: 205px;
+    height: 50px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1.5px solid rgb(255, 187, 0);
+    background: 0;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}

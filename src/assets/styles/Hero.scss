@@ -1,0 +1,12 @@
+#hero {
+  margin: 40px auto;
+  .hero {
+    &--products {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 110px;
+    }
+  }
+}

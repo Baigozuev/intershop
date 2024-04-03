@@ -1,0 +1,30 @@
+@import "../src/assets/styles/Header.scss";
+@import "../src/assets/styles/AddProduct.scss";
+@import "../src/assets/styles/ProductCard.scss";
+@import "../src/assets/styles/Hero.scss";
+@import "../src/assets/styles/Category.scss";
+@import "../src/assets/styles/Basket.scss";
+@import "../src/assets/styles/History.scss";
+
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
