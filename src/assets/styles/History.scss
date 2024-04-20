@@ -1,5 +1,5 @@
 #history {
-    margin: 30px 0;
+  margin: 30px 0;
   h1 {
     text-transform: capitalize;
   }
@@ -8,6 +8,7 @@
 table {
   margin-top: 30px;
   width: 80%;
+  // padding-bottom: 500px;
   //   background: black;
   margin-left: 130px;
   text-align: center;
@@ -22,12 +23,18 @@ table {
 
 th,
 td {
+  cursor: pointer;
   border-radius: 15px;
   padding: 15px 0;
   background: white;
   //   border: 2px solid black;
   color: black;
   border-bottom: 2px solid rgba(30, 28, 28, 0.671);
+}
+td:hover {
+  transform: scale(0.9);
+  border-bottom: 2px solid rgba(21, 35, 236, 0.782);
+  color: red;
 }
 
 th {
@@ -40,5 +47,9 @@ thead {
     background: #1c3040;
     color: white;
     border-bottom: 2px solid rgb(26, 24, 24);
+  }
+  th:hover {
+    color: yellow;
+    background: rgb(24, 175, 239);
   }
 }
